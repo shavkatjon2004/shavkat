@@ -1,0 +1,38 @@
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    width: 200px;
+    height: 640px;
+    background-color: rgba(0, 0, 0, 0.89);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-top: 30px;
+    transition: border 3s;
+}
+
+.box:nth-child(1):hover {
+    background-color: red;
+    border: 3px solid red;
+}
+
+.box:nth-child(2):hover {
+    background-color: yellow;
+    border: 3px solid yellow;
+}
+
+.box:nth-child(3):hover {
+    background-color: green;
+    border: 3px solid green;
+}
